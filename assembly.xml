@@ -6,14 +6,8 @@
     </formats>
     <fileSets>
         <fileSet>
-            <directory>models</directory>
-            <outputDirectory>models</outputDirectory>
             <includes>
-                <include>*.py</include>
-            </includes>
-        </fileSet>
-        <fileSet>
-            <includes>
+                <include>models/*.py</include>
                 <include>*.py</include>
             </includes>
         </fileSet>
