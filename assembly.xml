@@ -4,12 +4,15 @@
     <formats>
         <format>zip</format>
     </formats>
+    <baseDirectory>auto_cash_rounding</baseDirectory>
     <fileSets>
         <fileSet>
+            <directory>${project.basedir}</directory>
             <includes>
                 <include>models/*.py</include>
                 <include>*.py</include>
             </includes>
+            <outputDirectory>/</outputDirectory>
         </fileSet>
     </fileSets>
 </assembly>
