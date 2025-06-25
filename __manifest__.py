@@ -7,9 +7,10 @@
     ),
     "website": "https://github.com/mekomsolutions/odoo-auto-rounding",
     "summary": "Configures the default rounding method on invoices",
-    "depends": ["account"],
+    "depends": ["account", "odoo_initializer"],
     "data": [],
     "demo": [],
     "installable": True,
-    "auto_install": True
+    "auto_install": True,
+    "post_startup_hook": 'on_startup'
 }

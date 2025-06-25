@@ -7,7 +7,6 @@
     <fileSets>
         <fileSet>
             <includes>
-                <include>models/*.py</include>
                 <include>*.py</include>
             </includes>
         </fileSet>
