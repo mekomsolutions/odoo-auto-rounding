@@ -1,1 +1,2 @@
-from . import models
+from . import activator
+from .activator import on_startup
