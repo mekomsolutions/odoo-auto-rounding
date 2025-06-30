@@ -4,14 +4,12 @@
     <formats>
         <format>zip</format>
     </formats>
-    <baseDirectory>auto_rounding</baseDirectory>
+    <baseDirectory>odoo_auto_rounding</baseDirectory>
     <fileSets>
         <fileSet>
-            <directory>${project.basedir}</directory>
             <includes>
                 <include>*.py</include>
             </includes>
-            <outputDirectory>/</outputDirectory>
         </fileSet>
     </fileSets>
 </assembly>
